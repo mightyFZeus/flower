@@ -48,6 +48,7 @@ function GalleryItem({
         if (onScreen) {
             updateActiveImage(index);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [onScreen, index]);
 
     return (

@@ -8,7 +8,6 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import CustomCursor from "./CustomCursor";
 import useLocoScroll from "./hooks/useLocoScroll";
-import locomotiveScroll from "locomotive-scroll";
 
 function App() {
   const [preloader, setPreloader] = useState(true);

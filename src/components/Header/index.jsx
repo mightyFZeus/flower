@@ -12,6 +12,7 @@ export default function Header() {
             linesClass: "lineChildren",
         });
 
+        // eslint-disable-next-line no-unused-vars
         const splitParent = new SplitText("#header-text", {
             type: "lines",
             linesClass: "lineParent",
